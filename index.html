@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Media Player</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="main.css" type="text/css">
+	</head>
+<body>
+<!-- song picker -->
+<aside>
+<form>
+<legend class="songlength">Song Length:</legend>
+  <input type="range" name="points" min="0" max="10">
+<fieldset>	
+<label for="artist">Artist</label>
+	<select id="artist" name="artist_name">
+		<optgroup label="Artist">
+			<option value="framing_hanley">Framing Hanley</option>
+			<option value="deftones">Deftones</option>
+			<option value="every_time_i_die">Every Time I Die</option>
+			<option value="emarosa">Emarosa</option>
+			<option value="biffy_clyro">Biffy Clyro</option>
+		</optgroup>
+	</select>
+
+<label for="album">Album</label>
+	<select id="album" name="album">
+		<optgroup label="Framing Hanley">
+			<option value="one_mas_more">One Mas More</option>
+			<option value="the_sum_of_who_we_are">The Sum Of Who We Are</option>
+			<option value="a_promise_to_burn">A Promise To Burn</option>
+		<optgroup label="Deftones">
+			<option value="white_pony">White Pony</option>
+			<option value="around_the_fur">Around The Fur</option>
+			<option value="">Deftones</option>
+		<optgroup label="Every Time I Die">
+			<option value="new_junk_aesthetic">New Junk Aesthetic</option>
+			<option value="hot_damn!">Hot Damn!</option>
+			<option value="last_night_in_town">Last Night In Town</option>
+		<optgroup label="Emarosa">
+			<option value="131">131</option>
+			<option value="relativity">Relativity</option>
+			<option value="versus">Versus</option>
+		<optgroup label="Biffy Clyro">
+			<option value="ellipsis">Ellipsis</option>
+			<option value="similarities">Similarities</option>
+			<option value="opposites">Opposites</option>
+		</optgroup>
+	</select>
+			<input type="checkbox" name="genre1" value="Rock">Rock<br>
+			<input type="checkbox" name="genre2" value="Classical">Classical<br> 
+			<input type="checkbox" name="genre3" value="Hip_Hop">Hip Hop<br> 
+			<input type="checkbox" name="genre4" value="Country">Country<br> 
+			<input type="checkbox" name="genre5" value="Jazz">Jazz<br> 
+			<input type="checkbox" name="genre6" value="Blues">Blues<br> 
+
+<button type="submit">Filter</button>
+</fieldset>
+</form>
+</aside>
+<!-- end of song picker -->
+</body>
+</html>

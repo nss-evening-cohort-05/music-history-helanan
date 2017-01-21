@@ -1,0 +1,131 @@
+    body {
+          font-family: 'Nunito', sans-serif;
+          color: #384047;
+      }
+
+
+                   /*song picker*/
+        .songlength {
+          font-family: '', sans-serif;
+          font-size: ;
+          color: ;
+
+
+          }
+
+
+    form {
+      max-width: 300px;
+      margin: 20px 20px;
+      padding: 10px 20px;
+      background: #4DD7FA;
+      border-radius: 8px;
+    }
+
+                    /*beginning of mobile responsive attributes*/
+        
+        h1 {
+            color: #9799a7;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+         .container:before, .container:after {
+            content: "";
+            display: table;
+        }
+
+         .container:after {
+            clear: both;
+        }
+
+         .container {
+            background: #eaeaed;
+            margin-bottom: 24px;
+            *zoom: 1;
+         }
+
+         .container-75 {
+            width: 75%;
+         }
+
+         .container-50 {
+            margin-bottom: 0;
+            width: 50%;
+         }
+
+         .container, section, aside {
+            border-radius: 6px;
+         }
+
+         section, aside {
+            background: #4DD7FA;
+            color: #fff;
+            margin: 1.858736059%;
+            padding: 20px 0;
+            text-align: center;
+         }
+         section {
+            float: left;
+            width: 63.197026%;
+         }
+         aside {
+            float: left;
+            width: 29.3680297%;
+         }
+
+         *, *:before, *:after {
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+                         /*inputs*/
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="datetime"],
+        input[type="email"],
+        input[type="number"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="time"],
+        input[type="url"],
+        textarea,
+
+        select {
+          background: rgba(255,255,255,0.1);
+          border: solid;
+          border-color: black;
+          border-radius: 15px;
+          font-size: 16px;
+          height: auto;
+          margin: 0;
+          outline: 0;
+          padding: 15px;
+          width: 100%;
+          background-color: #e8eeef;
+          color: #8a97a0;
+          box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+          margin-bottom: 30px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+          margin: 0 4px 8px 0;
+        }
+
+        select {
+          padding: 6px;
+          height: 32px;
+          border-radius: 2px;
+        }
+                 
+
+                                 /* color palette */
+/*Red = #FFB4B0  
+Blue = #4DD7FA  
+Light yellow = #FEFAC0  
+Dark yellow = #785616*/
